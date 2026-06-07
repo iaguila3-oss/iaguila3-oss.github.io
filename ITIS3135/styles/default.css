@@ -1,0 +1,13 @@
+h1,
+p {
+    margin: auto;
+    line-height: 45px;
+    text-align: center;
+}
+
+a {
+    position: fixed;
+    margin-left: 37vw;
+    margin-top: 80vh;
+    color: red;
+}
