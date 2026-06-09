@@ -7,8 +7,9 @@ p {
 }
 
 a {
+    align-self: center;
     position: fixed;
-    margin-left: 37vw;
+    margin-left: 45vw;
     margin-top: 80vh;
     color: black;
 }
