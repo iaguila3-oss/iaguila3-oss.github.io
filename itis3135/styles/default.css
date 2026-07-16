@@ -35,7 +35,8 @@ h6 {
 }
 
 footer {
-    border-top: 2px solid #cfcfcf; /*Reason: Delightful shade of light grey. */
+    border-top: 2px solid #cfcfcf;
+    /*Reason: Delightful shade of light grey. */
     line-height: 35px;
     text-align: center;
     background-color: #d2d5ff;
@@ -126,4 +127,10 @@ li {
     height: 50px;
     border-radius: 30px;
     object-fit: cover;
+}
+
+a:link,
+a:visited {
+    color: rgb(135, 35, 75);
+    text-decoration: underline;
 }
