@@ -4,40 +4,99 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Ivan Aguilar's Personal Home Page</title>
-
-    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <title>Ivan Aguilar's Page | Home</title>
 
     <style>
         body {
-            background-color: #ffffff;
+            background-color: #818589;
             font-family: Arial, sans-serif;
             color: #333;
+            margin: 0%;
+
         }
 
         #course-box {
-            background-color: #ffc7c7;
+            background-color: #b1b1b1;
             font-weight: bold;
             max-width: 320px;
             margin: auto;
             padding: 20px;
         }
 
+        header {
+            background-color: #b1b1b1;
+            padding: 20px;
+            margin: 0%;
+        }
+
         h1,
         h2,
-        p {
+        h3 {
             color: black;
             margin: auto;
             line-height: 45px;
             text-align: center;
         }
 
+        footer p {
+            border-top: 2px solid #444444;
+            line-height: 50px;
+            text-align: center;
+        }
+
         nav {
             text-align: center;
             margin-top: 15px;
-            color: black;
+        }
+
+        nav a {
+            color: #ffffff;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            max-width: 800px;
+            margin: 30px auto;
+            margin-top: 0%;
+        }
+
+        .info-card {
+            background-color: #b1b1b1;
+            font-weight: bold;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .box-title {
+            background-color: #bbbbbb;
+            border-bottom: 2px solid #333333;
+            border-radius: 10px;
+        }
+
+        .about-content {
+            text-align: center;
+        }
+
+        .profile-img {
+            margin-top: 10px;
+            width: 400px;
+            height: 400px;
         }
     </style>
+
+    <link rel="icon" type="image/x-icon" href="itis3135/images/favicon.ico">
+
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -46,14 +105,57 @@
     </header>
 
     <main>
-        <p>Hey, this my site smiley face.</p>
-        <section id="course-box">
-            <h2>COURSES</h2>
-            <nav>
-                <a href="ITIS3135/">Ivan Aguilar's ITIS3135 Page</a>
-            </nav>
-        </section>
+        <h2>Home</h2>
+        <div class="content-wrapper">
+            <!--Box 2, about me-->
+            <section id="about-box" class="info-card">
+                <h3 class="box-title">ABOUT</h3>
+                <div class="about-content">
+                    <img src="itis3135/images/ivan.jpg" alt="Ivan Aguilar profile photo" class="profile-img">
+                    <p>Hi, I'm Ivan! Welcome to page :p</p>
+                    <p>I am 21 years old and studying Computer science at UNCC. I’m most interested in web development
+                        and the internet so my concentration is Software and Web Development. I’m living in Charlotte
+                        for school but grew up in Durham near Duke!
+                    </p>
+                    <ul>
+                        <li>Personal Background: Born and raised Durham native.</li>
+                        <li>Professional Background:I have experience in warehouses working with the construction of
+                            transformers, as well as building sites for personal endeavors related to music.</li>
+                        <li>Academic Background: Computer Science Major, 3rd year transfer, with hopes to get a job
+                            related to software development.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--Box 1, courses-->
+            <section id="course-box" class="info-card">
+                <h3 class="box-title">COURSES</h3>
+                <nav>
+                    <a href="itis3135/">IITIS3135 - Front-End web development</a>
+                    <p>ITIS4350 - Design Prototyping</p>
+                    <p>ITSC3160 - Database Design & Implementation</p>
+                </nav>
+            </section>
+
+            <!--Box 3, my interest-->
+            <section id="interest-box" class="info-card">
+                <h3 class="box-title">INTEREST</h3>
+                <div class="interest-content">
+                    <ul>
+                        <li>I love music, specifically genres like Rap and Witchhouse.</li>
+                        <li>I have a 5 year old part Siamese cat named Agni.</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
     </main>
+    <footer>
+        <p><em>"Trying to do better everyday."</em></p>
+    </footer>
+
+    <script src="https://divonbriesen.github.io/web123/scripts/standards-check.js" defer></script>
 
 </body>
 
