@@ -1,7 +1,8 @@
 body {
-    color: rgba(255, 60, 144);
+    color: rgb(135, 35, 75);
     background-color: aliceblue;
     margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -22,13 +23,19 @@ h3 {
     margin: auto;
 }
 
+h2,
+h4,
+h5 {
+    color: rgb(135, 35, 75);
+}
+
 h6 {
     font-size: large;
     margin: auto;
 }
 
 footer {
-    border-top: 2px solid #cfcfcf;
+    border-top: 2px solid #cfcfcf; /*Reason: Delightful shade of light grey. */
     line-height: 35px;
     text-align: center;
     background-color: #d2d5ff;
@@ -41,7 +48,7 @@ nav {
 }
 
 nav a {
-    color: rgba(255, 60, 144);
+    color: rgb(135, 35, 75);
 }
 
 nav a:not(:last-child)::after {
