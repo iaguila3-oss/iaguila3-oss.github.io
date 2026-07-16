@@ -12,8 +12,9 @@
         body {
             background-color: #466466;
             font-family: Arial, sans-serif;
-            color: #EBBAB9;
-            text-shadow: 0px 0px 15px #EBBAB9;
+            color: #fefefe;
+            /*Reason: WCAG contrast error fix*/
+            text-shadow: 0px 0px 15px #fefefe;
             /*Reason: light pink color given by random color generator*/
             font-size: xx-large;
         }
@@ -39,7 +40,6 @@
         }
 
         h1,
-        h5,
         h6 {
             background-color: hsl(348, 100%, 32%);
             padding: 20px 40px;
@@ -82,6 +82,16 @@
             margin-bottom: 10px;
         }
 
+        h5 {
+            background-color: hsl(348, 100%, 32%);
+            padding: 20px 40px;
+            border-radius: 30px;
+            margin: 0;
+            text-align: left;
+            align-self: flex-start;
+
+        }
+
         .info ul {
             list-style-type: disc;
             margin-top: 15px;
@@ -94,8 +104,6 @@
             font-size: 1.3rem;
             margin-top: 12px;
             text-align: left;
-            color: #fefefe;
-            /*Reason: WCAG contrast error fix*/
         }
 
         .info p {
@@ -116,8 +124,8 @@
 
         a:link,
         a:visited {
-            color: #EBBAB9;
-            text-shadow: 0px 0px 15px #EBBAB9;
+            color: #fefefe;
+            text-shadow: 0px 0px 15px #fefefe;
             text-decoration: underline;
         }
 
@@ -171,6 +179,10 @@
                 <li><strong>Satisfaction Guarantee:</strong> Collaborative revision phases to ensure the final product
                     matches your exact creative vision.</li>
             </ul>
+            <p>Our creative studio will deploy current industry standards to make your digital platform both stunning
+                and intuitive. We design custom visual frameworks engineered for growth, keeping your distinct company
+                voice amplified across all user interface layouts and technical touchpoints.</p>
+
             <section class="contact">
                 <h4>Contact Hai Design Online:</h4>
                 <h5>Phone Number: (909) 200-1111</h5>
