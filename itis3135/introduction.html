@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div id="header-placeholder"></div>
+    <div data-include="components/header.html"></div>
 
     <main>
 
@@ -79,13 +79,9 @@
 
     </main>
 
-    <div id="footer-placeholder"></div>
+    <div data-include="components/footer.html"></div>
 
-    <script src="scripts/include_components.js"></script>
-    <script>
-        loadComponent('header-placeholder', "components/header.html");
-        loadComponent('footer-placeholder', 'components/footer.html');
-    </script>
+    <script src="scripts/HTMLInclude.min.js"></script>
 
     <script src="https://divonbriesen.github.io/web123/scripts/standards-check.js" defer></script>
 
