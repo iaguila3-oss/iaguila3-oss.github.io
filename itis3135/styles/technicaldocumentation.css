@@ -1,0 +1,78 @@
+
+/* The following is for Technical Documentation*/
+
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #2c3e50;
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+
+#navbar header {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 20px 15px;
+}
+
+.nav-link {
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-top: 1px solid #34495e;
+}
+
+.nav-link:hover {
+  background-color: #34495e;
+}
+
+#main-doc {
+  margin-left: 250px;
+  padding: 20px 40px;
+  max-width: 700px;
+}
+
+.main-section {
+  padding-top: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.main-section header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+code {
+  display: block;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: monospace;
+  margin: 10px 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  #main-doc {
+    margin-left: 0;
+    padding: 20px;
+  }
+}

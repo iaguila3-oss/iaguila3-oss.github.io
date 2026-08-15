@@ -114,8 +114,7 @@ li {
     font-size: 1.2rem;
 }
 
-.about,
-.contract {
+.reuse_page_layout {
     text-align: left;
     padding: 0px 20vw;
 }

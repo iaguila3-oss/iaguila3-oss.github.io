@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Ivan Aguilar's Ingenious Alligator | ITIS3135</title>
+
+    <style>
+        body {
+            color: #CBCBCB;
+            text-shadow: 0px 0px 10px #303030;
+            background-color: #8F8F8F;
+            margin: 0%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            background-color: #3A3A3A;
+            padding: 20px;
+            margin: 0%;
+        }
+
+        footer {
+            border-top: 2px solid #3A3A3A;
+            /*Reason: Delightful shade of light grey. */
+            line-height: 35px;
+            text-align: center;
+            background-color: #3A3A3A;
+        }
+
+        nav a {
+            color: #CBCBCB;
+            border-radius: 5px;
+            padding: 5px 9px;
+            background-color: #1C2226;
+            margin: 2px;
+        }
+
+        h1 {
+            margin: auto;
+            line-height: 45px;
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        h3 {
+            font-size: xx-large;
+            margin: auto;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        h2,
+        h4,
+        h5 {
+            color: #CBCBCB;
+        }
+
+        h6 {
+            font-size: large;
+            margin: auto;
+        }
+
+
+        nav {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .Generic-Container {
+            width: 80vw;
+            margin: 20px auto;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        figure {
+            margin: 0;
+            text-align: center;
+        }
+
+        figcaption:not(.profile-figure) {
+            text-align: center;
+        }
+
+        .profile-figure {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+
+        audio,
+        video,
+        img:not(.stamp-img) {
+            min-width: 50vw;
+            max-width: 55vw;
+        }
+
+        .stamp-img {
+            display: block;
+            margin: 5px auto;
+            width: 50px;
+            height: 50px;
+            border-radius: 30px;
+            object-fit: cover;
+        }
+
+        .site-link {
+            color: #CBCBCB;
+            text-decoration: underline;
+        }
+
+        p {
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Music Production</h1>
+
+        <nav>
+            <a onclick="LoadPage('HOME')">Home</a>
+            <a onclick="LoadPage('ABOUT')">About Me</a>
+            <a onclick="LoadPage('SCHE')">Schedule</a>
+            <a onclick="LoadPage('LOC')">Location</a>
+            <a onclick="LoadPage('HOW')">How</a>
+            <a onclick="LoadPage('PURP')">Purpose</a>
+            <a onclick="LoadPage('AI')">AI Prompts</a>
+        </nav>
+    </header>
+    <main>
+        <section class="Generic-Container" id="HOME">
+            <h2>Producing on FL Studio</h2>
+            <p>Producing music is a hobby that consists of creating your own melodies and drum patterns to put together
+                your own songs. This can be done using any DAW (Digital Audio Interface). My primary DAW is FL Studio,
+                short for Fruity Loops; created in December 1997 by Image-Line, FL Studio is
+                a DAW that commonly appears in Hip Hop and Rap production.
+            </p>
+            <figure><img src="images/360_F_1392130468_Cf2QnaPiFrSeChEkySEsBOLKHaByfz49.jpg"
+                    alt="AI Generated Image of a home studio">
+                <figcaption><em>Image from adobe stock.</em></figcaption>
+            </figure>
+            <p>Fl Studio is a popular DAW primarily because of its prevalence in smaller tight-knit communities. Along
+                with this FL Studio has a reputation of being the underdog's choice, being popular among beginners
+                because of its often easily accessed pirated versions. Popular artist who have used FL Studio at the
+                start of their careers include: Soulja Boy, Metro Boomin, Chief Keef, Tyler, The Creator.</p>
+        </section>
+
+        <section class="Generic-Container" id="ABOUT">
+            <h2>About Me</h2>
+            <p>I first began my music production journey when I was 18 in 2023, I was really into underground music and
+                felt a sort of relatability with artist that were gaining notoriety at the time. I enjoyed the songs and
+                thought to myself, I can do this too. In the 3 years that have passed since that time I have put
+                countless hours, evenings, days, and nights into growing my understanding with the art form and finding
+                my own sound.
+            </p>
+            <figure><img src="images/DAW.png" alt="Photo of my DAW on a song made by me">
+                <figcaption><em>Photo of my DAW on a song made by me.</em></figcaption>
+            </figure>
+            <p>The following mp3 is the instrumental of the song I made in the image shown above!</p>
+            <audio controls>
+                <source src="stuff/beat120hum_5.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section class="Generic-Container" id="SCHE">
+            <h2>Schedule</h2>
+            <p>My production schedule can vary by a large amount depending on my mood that day, some days I feel like
+                I'm capable of making something truly great, other days I feel as though I never should have started
+                making music at all. Regardless I find my love for this craft so true that without fail I always find
+                myself spending at least 30 minutes producing whenever I get on my desktop.
+            </p>
+            <figure><img src="images/info.png" alt="Project Info from song featured on About me Page">
+                <figcaption><em>Project Info from song featured on About me Page</em></figcaption>
+            </figure>
+            <p>Songs could take 20 minutes to complete, or even 20 hours, it really depends in the moment, how you feel
+                and how close the sound your making matches your vision. I like to make this joke: FL Studio is
+                basically my computer's password, I can't do anything on it until I've attempted to make something in
+                the DAW, only then can I use my computer for what I need to do.</p>
+            <figure><img src="images/info2.png" alt="Project Info from a song I created recently">
+                <figcaption><em>Project Info from a song I created recently</em></figcaption>
+            </figure>
+            <p>The image above shows the project info for a track I finished the other month, compared to the first
+                image, this one only took 5 hours!</p>
+        </section>
+
+        <section class="Generic-Container" id="LOC">
+            <h2>Producing Locations</h2>
+            <p>The primary location for my hobby tends to be my desktop computer at my apartment, but along with music
+                production I have a real interest in traveling. Thanks to my laptop I am able to get work done no matter
+                where I am, whether I'm in the car, on the subway, on a plane, or just at my friend's house, the
+                location does not affect my ability to create.</p>
+            <figure><img src="images/location.png" alt="Project Info from song featured on About me Page">
+                <figcaption><em>Left: Producing in the car while away. Right: Producing on NYC transit (with a man
+                        sleeping
+                        across from me).</em></figcaption>
+            </figure>
+            <p>One of my favorite things about this hobby is both the plethora of tools that help me make great music at
+                home,
+                along with the minimal tools required for me to work when I'm away. I primarily enjoy producing on my
+                desktop computer, it has
+                quality Monitors, an audio interface, a MIDI keyboard, and even a microphone setup. But I always
+                understood that things like these aren't what make great music, it's all lies within. That's why I'm
+                able to make great tracks on my laptop too, on wired earbuds and no mouse, using stock plugins and no
+                autotune.
+            </p>
+        </section>
+
+        <section class="Generic-Container" id="HOW">
+            <h2>How to Produce</h2>
+            <p>The first thing you need to get into Production is passion, a drive to create something greater than
+                yourself. After you muster the courage to commit to it you can then continue by picking which DAW you
+                want to initially learn. There are several that each have thier own pros and cons, and of course after
+                you get the hang of one you can definitely use them all interchangeably.</p>
+            <figure><img src="images/1000_F_122677507_1m26eFsd27LiBkecXIxsTRVrE8eGpNRh.jpg"
+                    alt="Stock image of a DAW in use">
+                <figcaption><em>Stock image of a DAW in use.</em></figcaption>
+            </figure>
+            <p>After you have chosen your DAW and decided what makes you passionate you can use these two to start
+                creating immediately. Initially, It's hard to get a grasp of if you have little familiarity with the
+                technology or Music Theory, but thankfully there exist a vast ecosystem of tutorials online that teach
+                you any kind of method you can think of. Videos exist that teach you how to make certain drum patterns,
+                melodies, and even production styles, so you can imitate your favorite artist!
+            </p>
+            <p>This is simply a short introduction on getting started with producing, but with that I will pass on the
+                advice that helped me grow as a producer, told to me by my favorite producer: The best way to hone your
+                abilities is by imitating those that inspire you. throughout the years I have done a lot of practice by
+                recreating my own favorite songs, creating my own synths, drums, and even vocal mixes. This has allowed
+                me to push my own boundaries and get a better understanding of the music I love.</p>
+        </section>
+
+        <section class="Generic-Container" id="PURP">
+            <h2>Why Produce?</h2>
+            <p>My main purpose with this hobby is not only to make great music, but also to leave something behind that
+                I can be proud of. Coming back to the topic of inspiration I think of my favorite artist, and how their
+                discographies cement their place in the cultural ecosystem. It drives me to feel the need to create
+                something I can look back and say with confidence that I made my mark on this world.</p>
+            <p>I've traveled miles and miles to see some of my favorite artist perform and I have hope one day that I
+                can give someone that same feeling I get when I see those people on stage performing my favorite songs.
+            </p>
+            <h3><strong>***FLASHING LIGHT WARNING***</strong></h3>
+            <figure>
+                <video controls>
+                    <source src="stuff/IMG_1066.mp4" type="video/mp4">
+                    <source src="stuff/IMG_1066.mov" type="video/quicktime">
+                    Your browser does not support the video element.
+                </video>
+                <figcaption><em>Sematary, Ghost Mountain, and Hackle performing New Rocks in Richmond Virginia for the
+                        Death's Wagon Tour.</em></figcaption>
+            </figure>
+            <h3><strong>***FLASHING LIGHT WARNING***</strong></h3>
+            <figure>
+                <video controls>
+                    <source src="stuff/IMG_4716.mp4" type="video/mp4">
+                    <source src="stuff/IMG_4716.mov" type="video/quicktime">
+                    Your browser does not support the video element.
+                </video>
+                <figcaption><em>The Help, performing Here I Am in Brooklyn New York.</em></figcaption>
+            </figure>
+        </section>
+
+        <section class="Generic-Container" id="AI">
+            <h2>AI Prompts used to create this page</h2>
+            <p>The following section is designated to AI prompts used and what they added to my site.
+            </p>
+            <figure><img src="images/AIone.png" alt="Screenshot of my HTML and JS script that was provided to Claude">
+                <figcaption><em>Screenshot of my HTML and JS script that was provided to Claude</em></figcaption>
+            </figure>
+            <p><em>"Help me finish this function, i want to make all the pages (sections) dissapear, then make
+                    the one it fetched appear"</em></p>
+            <figure><img src="images/AItwo.png" alt="Screenshot of Claude provided answer">
+                <figcaption><em>Screenshot of Claude provided answer</em></figcaption>
+            </figure>
+            <p><em>"okay when i open the page fresh it has all of the sections displayed, can i make it so
+                    intially it only shows a certain one?"</em></p>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="https://webpages.charlotte.edu/iaguila3/">CLT Web</a>
+            <a href="https://github.com/iaguila3-oss">GitHub</a>
+            <a href="https://iaguila3-oss.github.io">GitHub.io</a>
+            <a href="https://www.freecodecamp.org/IvanAguilar1">freeCodeCamp</a>
+            <a href="https://www.codecademy.com/profiles/IvanAguilar1">Codeacademy</a>
+            <a href="https://www.linkedin.com/in/ivan-aguilar-195b922ba">LinkedIn</a>
+        </nav>
+        <p>Page designed by <em><a href="../../haidesigns.com/haidesigns.html" class="site-link">Hai Designs
+                    Online</a></em>
+            &copy;2026
+        </p>
+        <p>Certified in Responsive Web Design</p>
+        <img src="../images/profile.jpg" alt="Ivan Aguilar Page stamp" class="stamp-img">
+        <p><em>"Trying to do better everyday."</em></p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+    <script src="https://divonbriesen.github.io/web123/scripts/standards-check.js" defer></script>
+</body>
+
+</html>

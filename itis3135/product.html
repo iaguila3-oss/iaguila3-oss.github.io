@@ -7,6 +7,7 @@
     <title>Ivan Aguilar's Ingenious Alligator | ITIS3135 | Products</title>
 
     <link rel="stylesheet" href="styles/default.css">
+    <link rel="stylesheet" href="styles/product.css">
 
     <link rel="icon" type="image/x-icon" href="images/favicon2.ico">
 
@@ -16,14 +17,59 @@
 <body>
     <div data-include="components/header.html"></div>
 
-    <main>
+  <header id="header">
+    <img id="header-img" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="BrewBot logo" />
+    <nav id="nav-bar">
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#video">Video</a>
+      <a class="nav-link" href="#form">Sign Up</a>
+    </nav>
+  </header>
 
-        <section class="contract">
-            <h2>Products</h2>
-            <p>Coming Soon</p>
-        </section>
+  <main>
+    <section id="hero">
+      <h1>BrewBot</h1>
+      <p>The smart coffee maker that learns your taste.</p>
+    </section>
 
-    </main>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Brews your perfect cup automatically</li>
+        <li>Connects to your phone via app</li>
+        <li>Self-cleaning cycle</li>
+      </ul>
+    </section>
+
+    <section id="video-section">
+      <h2>See It In Action</h2>
+      <iframe
+        id="video"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        title="BrewBot product video"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section id="signup">
+      <h2>Get Early Access</h2>
+      <form id="form" action="https://www.freecodecamp.org/email-submit" method="post">
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <input id="submit" type="submit" value="Sign Up" />
+      </form>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p>&copy; 2026 BrewBot Inc.</p>
+  </footer>
 
     <div data-include="components/footer.html"></div>
 

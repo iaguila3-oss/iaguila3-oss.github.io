@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Ivan Aguilar's Ingenious Alligator | ITIS3135 | Inventory</title>
+    <title>Ivan Aguilar's Ingenious Alligator | ITIS3135 | Book Inventory</title>
 
     <link rel="stylesheet" href="styles/default.css">
+    <link rel="stylesheet" href="styles/inventory.css">
 
     <link rel="icon" type="image/x-icon" href="images/favicon2.ico">
 
@@ -17,10 +18,73 @@
     <div data-include="components/header.html"></div>
 
     <main>
-
-        <section class="contract">
-            <h2>Inventory</h2>
-            <p>Coming Soon</p>
+        <section class="reuse_page_layout">
+            <h2>Book Inventory</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Category</th>
+                        <th>Status</th>
+                        <th>Rate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="read">
+                        <td>The Hobbit</td>
+                        <td>J.R.R. Tolkien</td>
+                        <td>Fantasy</td>
+                        <td><span class="status">Read</span></td>
+                        <td>
+                            <span class="rate three">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr class="read">
+                        <td>Dune</td>
+                        <td>Frank Herbert</td>
+                        <td>Sci-Fi</td>
+                        <td><span class="status">Read</span></td>
+                        <td>
+                            <span class="rate two">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr class="to-read">
+                        <td>Project Hail Mary</td>
+                        <td>Andy Weir</td>
+                        <td>Sci-Fi</td>
+                        <td><span class="status">To Read</span></td>
+                        <td>
+                            <span class="rate">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr class="in-progress">
+                        <td>Atomic Habits</td>
+                        <td>James Clear</td>
+                        <td>Self-Help</td>
+                        <td><span class="status">In Progress</span></td>
+                        <td>
+                            <span class="rate">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
     </main>

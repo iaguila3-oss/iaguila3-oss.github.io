@@ -1,0 +1,84 @@
+
+/* The following is for Product Inventory*/
+table {
+  width: 100%;
+  max-width: 800px;
+  margin: 50px auto;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+span {
+  display: inline-block;
+}
+
+/* Story 8 */
+tr[class="read"] {
+  background-image: linear-gradient(to right, #e6f9e6, #ffffff);
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(to right, #fdf3e6, #ffffff);
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(to right, #e6f0fd, #ffffff);
+}
+
+/* Story 10, 11, 12 */
+tr[class="to-read"] span[class="status"] {
+  border: 1px solid orange;
+  background-image: linear-gradient(to right, #ffe0b3, #ffcc80);
+}
+
+tr[class="read"] span[class="status"] {
+  border: 1px solid seagreen;
+  background-image: linear-gradient(to right, #b3f0c2, #85e0a3);
+}
+
+tr[class="in-progress"] span[class="status"] {
+  border: 1px solid steelblue;
+  background-image: linear-gradient(to right, #b3d4fc, #85bdfa);
+}
+
+/* Story 13 */
+span[class="status"],
+span[class^="rate"] {
+  height: 24px;
+  width: auto;
+  padding: 4px 10px;
+}
+
+/* Story 14 */
+span[class^="rate"] > span {
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin: 2px;
+  height: 12px;
+  width: 12px;
+  background-color: lightgray;
+}
+
+/* Story 15 */
+span[class~="one"] > span:first-child {
+  background-image: linear-gradient(to bottom, gold, orange);
+}
+
+/* Story 16 */
+span[class~="two"] > span:nth-child(-n+2) {
+  background-image: linear-gradient(to bottom, gold, orange);
+}
+
+/* Story 17 */
+span[class~="three"] > span:nth-child(-n+3) {
+  background-image: linear-gradient(to bottom, gold, orange);
+}
+span[class~="three"] span {
+  background-image: linear-gradient(to bottom, gold, orange);
+}

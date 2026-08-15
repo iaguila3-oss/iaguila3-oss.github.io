@@ -7,6 +7,7 @@
     <title>Ivan Aguilar's Ingenious Alligator | ITIS3135 | Documentation</title>
 
     <link rel="stylesheet" href="styles/default.css">
+    <link rel="stylesheet" href="styles/technicaldocumentation.css">
 
     <link rel="icon" type="image/x-icon" href="images/favicon2.ico">
 
@@ -14,13 +15,82 @@
 </head>
 
 <body>
-        <div data-include="components/header.html"></div>
+    <div data-include="components/header.html"></div>
 
     <main>
 
-        <section class="contract">
-            <h2>Documentation</h2>
-            <p>Coming Soon</p>
+        <nav id="navbar">
+            <a class="nav-link" href="#Introduction">Introduction</a>
+            <a class="nav-link" href="#Variables">Variables</a>
+            <a class="nav-link" href="#Functions">Functions</a>
+            <a class="nav-link" href="#Arrays">Arrays</a>
+            <a class="nav-link" href="#Loops">Loops</a>
+            <a class="nav-link" href="#Objects">Objects</a>
+        </nav>
+
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>JavaScript is a lightweight, interpreted programming language most commonly used to add interactivity to
+                web pages.</p>
+            <p>It runs in the browser and, with Node.js, on the server as well.</p>
+            <p>This guide covers the fundamentals every beginner should know.</p>
+        </section>
+
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p>Variables store data values. You can declare them with <code>let</code>, <code>const</code>, or
+                <code>var</code>.</p>
+            <p><code>let</code> allows reassignment, while <code>const</code> does not.</p>
+            <p>Example:</p>
+            <code>let age = 25;</code>
+            <p>Choosing the right declaration keyword helps prevent bugs.</p>
+        </section>
+
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <p>Functions are reusable blocks of code that perform a specific task.</p>
+            <p>They can be declared using the <code>function</code> keyword or as arrow functions.</p>
+            <code>function greet() { return "Hello"; }</code>
+            <p>Arrow function example:</p>
+            <code>const greet = () => "Hello";</code>
+            <p>Functions can accept parameters and return values.</p>
+        </section>
+
+        <section class="main-section" id="Arrays">
+            <header>Arrays</header>
+            <p>Arrays store ordered collections of values.</p>
+            <code>const fruits = ["apple", "banana", "cherry"];</code>
+            <p>Common array methods include:</p>
+            <ul>
+                <li><code>push()</code> – adds an item to the end</li>
+                <li><code>pop()</code> – removes the last item</li>
+                <li><code>map()</code> – transforms each item</li>
+            </ul>
+            <p>Arrays are zero-indexed, meaning the first item is at index 0.</p>
+        </section>
+
+        <section class="main-section" id="Loops">
+            <header>Loops</header>
+            <p>Loops let you repeat a block of code multiple times.</p>
+            <p>Common loop types include:</p>
+            <ul>
+                <li><code>for</code> loops</li>
+                <li><code>while</code> loops</li>
+            </ul>
+            <code>for (let i = 0; i < 5; i++) { console.log(i); }</code>
+            <p>Loops are essential for processing arrays and repeating tasks.</p>
+        </section>
+
+        <section class="main-section" id="Objects">
+            <header>Objects</header>
+            <p>Objects store data as key-value pairs.</p>
+            <code>const person = { name: "Alex", age: 30 };</code>
+            <p>You can access values using dot notation or bracket notation.</p>
+            <ul>
+                <li><code>person.name</code></li>
+                <li><code>person["age"]</code></li>
+            </ul>
+            <p>Objects are one of the most fundamental data structures in JavaScript.</p>
         </section>
 
     </main>
