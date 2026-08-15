@@ -9,7 +9,7 @@ async function LoadPage(pageName) {
         target.style.display = '';
         const heading = target.querySelector('h2');
         if (heading) {
-            document.title = `Ivan Aguilar's Ingenious Alligator | ${heading.textContent}`;
+            document.title = `Music Production | ${heading.textContent}`;
         }
     }
 }
